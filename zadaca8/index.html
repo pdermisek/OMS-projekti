@@ -1,0 +1,101 @@
+
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reaction time game</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/app.css">
+  </head>
+<body>
+
+  
+    <h1>
+      TESTIRAJTE VAŠE VRIJEME REAKCIJE
+    </h1>
+  
+
+
+  <div class="grid-container">
+    <div class="grid-x grid-padding-x">
+  
+    <div class="uvod large-12 medium-12 small-12 cell">
+    
+      Formula 1 vozači često prije utrka imaju tzv. <i>Reaction Time</i> testove gdje je cilj što brže kliknuti gumb kada se na njemu pojavi zelena boja, a time vježbaju što bolji start na nadolazećoj utrci.
+      S obzirom da sam veliki obožavatelj Formule 1, odlučila sam se okušati u JavaScriptu i pokušati napraviti nešto slično.
+      Nadam se da će vam se svidjeti.
+    <br>
+      Uživajte!
+    
+  </div>
+
+
+  <div class="glavno large-6 medium-12 small-12 cell">
+  <div id="igra">
+    <div class="click-area">
+      <div class="prvi-tekst"> Dobrodošli! Klikni za početak! </div>
+    </div>
+    <div class="rezultati">
+      <div class="rezultat">-</div>
+      <div class="rezultat">-</div>
+      <div class="rezultat">-</div>
+      <div class="rezultat">-</div>
+      <div class="rezultat">-</div>
+    </div>
+  </div>
+   </div>
+
+ <div class="pravila large-6 medium-12 small-12 cell">
+  <b><u>KAKO SE IGRA</u></b>
+      <p>&nbsp;</p>
+        Kako biste započeli igru, jednostavno kliknite na crvenu površinu i pričekajte da se pojavi zelena boja.
+        Cilj je što brže kliknuti i testirati vlastite reakcije. Kod vozača Formule 1 vrijeme reakcije iznosi između 150 ms i 200 ms!
+        Najbrže vrijeme reakcije napravio je vozač Valtteri Bottas 2019. godine u Japanu, gdje je njegovo vrijeme reakcije iznosilo nevjerojatnih 0.04ms!
+      Jeste li bolji od vozača Formule 1? Zaigrajte i saznajte!
+    </div>
+
+  <div class="javascript large-12 medium-12 small-12 cell">
+    <details>
+      <summary>
+    <b><u>JAVASCRIPT FUNKCIONALNOSTI</u></b></summary>
+    <p>&nbsp;</p>
+    U izradi ove stranice korišene su sljedeće JavaScript funkcionalnosti <br>
+    U komentarima JS koda detaljno je objašnjeno što svaka linija radi, a ovdje ću objasniti samo neke funkcionalnosti za koje smatram da su najvažnije
+     <br>
+
+    <ul>
+      <li><b><mark>document.querySelector</mark></b> &#8594; Ova funkcionalnost dohvaća HTML elemente na temelju njihovih klasa (class). <br>
+      Također, ova funkcionalnost dohvaća samo prvi element s određenom klasom, a ako želimo uključiti sve elemente koji imaju <br>
+    istu klasu koristit ćemo <b><mark>document.querySelectorAll</mark></b></li>
+    <li><b><mark>const</mark></b> &#8594; Ovo je varijabla koja se ne mijenja</li>
+    <li><b><mark>let</mark></b> &#8594; Ovo je varijabla koja se može mijenjati i koja se u pravilu mijenja</li>
+    <li><b><mark>function igraj()</mark></b> &#8594; Ova funkcija na ovoj stranici postavlja crvenu boju i generira slučajno vrijeme nakon kojeg postavlja boju na zeleno. <br>
+    Osim toga, također postavlja varijable za praćenje vremena i čeka na korisnikov klik.</li>
+    <li><b><mark>Math.floor</mark></b> &#8594; funkcija koja zaokružuje decimalni broj prema dolje na najbliži cijeli broj</li>
+    <li><b><mark>Math.random</mark></b> &#8594; funkcija koja određuje slučajan broj u određenom rasponu.</li>
+    <li><b><mark>Math.min</mark></b> &#8594; funkcija koja se koristi za pronalaženje najmanjeg broja između dva ili više brojeva</li>
+    <li><b><mark>clickArea.addEventListener</mark></b> &#8594; JavaScript omogućuje reagiranje na različite korisničke akcije. U ovom slučaju to je klik, a može biti i pritisak <br>
+    određene tipke, pomicanje mišem itd.</li>
+    
+    </ul>
+</details>
+
+  </div>
+
+
+
+
+</div>
+</div>
+
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/foundation.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>

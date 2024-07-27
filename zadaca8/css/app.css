@@ -1,0 +1,102 @@
+#igra{
+    display: flex;
+    width: 450px;
+    height: 300px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    
+    
+}
+
+.click-area{
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    background: red;
+    cursor: pointer;
+}
+
+.prvi-tekst{
+    padding: 24px;
+    width: 100%;
+    text-align: center;
+    font-size: 24px;
+    color: white;
+}
+
+.rezultati{
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    flex-shrink: 0;
+}
+
+.rezultat{
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+
+}
+
+.rezultat:nth-child(odd){
+    background: #eeeeee;
+}
+
+.rezultat:nth-child(even){
+    background: #ce6d6d;
+}
+
+
+
+.glavno{
+    place-items: center;
+    
+    padding: 30px;
+}
+
+header{
+    text-align: center;
+}
+
+.pravila{
+    text-align: center;
+    border: solid white;
+    padding: 20px;
+    border-spacing: 20px;
+    background-color: #ce6d6d;
+}
+
+.uvod{
+    text-align: center;
+    border: solid white;
+    padding: 20px;
+    background-color: #ce6d6d;
+
+}
+
+.grid-container{
+    display: grid;
+    place-items: center;
+    text-align: center;
+
+}
+
+body{
+    background-image: url(../formula.jpg);
+    background-size: cover;
+   
+}
+
+h1{
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
+
+.javascript{
+    background-color: #ce6d6d;
+    border: solid white;
+    padding: 20px;
+}

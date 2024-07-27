@@ -1,0 +1,39 @@
+#slika, #slika1, #slika2, #slika3, #slika4{
+  width: 300px;
+  height: 300px;
+}
+
+body{
+background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(4,4,46,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+.naslov{
+  background-color: #b30753;
+  text-align: center;
+}
+
+h1, h3, h4, h6{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.vozac1{
+  background-color: #ff6f3c;
+}
+
+.vozac2{
+  background-color: #ff9a3c;
+}
+
+.vozac3{
+  background-color: #00bbf0;
+}
+
+.vozac4{
+  background-color: #005792;
+}
+
+.vozac5{
+  background-color: #00204a;
+}
+
+

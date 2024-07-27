@@ -1,0 +1,153 @@
+body{
+    background-blend-mode: darken;
+    background-image: url("code.jpg");
+    background-color: rgb(23, 41, 58);
+    color: rgb(124, 228, 245);
+}
+
+h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    font-size: 5em;
+    color: chartreuse;
+}
+
+.navigation{
+  overflow: hidden;
+  background-color: chartreuse; 
+ text-align: center;
+}
+
+
+.navigation a{
+ float: left;
+ font-size: 25px;
+ font-weight: bold;
+ color: black;
+ text-align: center;
+ padding: 12px;
+ text-decoration: none;
+ border: darkgreen;
+ outline: auto;
+}
+
+.dropdown {
+   float: left;
+   overflow: hidden;
+ }
+
+ .dropdown .dropbtn {
+   font-size: 25px;  
+   font-weight: bold;
+   border:darkgreen;
+   outline: auto;
+   color: black;
+   padding: 12px;
+   background-color: inherit;
+   font-family: inherit;
+   margin: auto;
+ }
+
+ .navigation a:hover, .dropdown:hover .dropbtn {
+   background-color: orange;
+ }
+
+ .dropdown-content {
+   display: none;
+   position: absolute;
+   background-color: chartreuse;
+   min-width: 160px;
+   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+   z-index: 1;
+ }
+
+ .dropdown-content a {
+   float: none;
+   color: black;
+   padding: 12px 16px;
+   text-decoration: none;
+   display: block;
+   text-align: left;
+ }
+
+ .dropdown-content a:hover {
+   background-color: orange;
+ }
+
+ .dropdown:hover .dropdown-content {
+   display: block;
+ }
+
+ nav .dropbtn:hover{
+   color:blue;
+ }
+ nav a:hover {
+     color:blue;
+ }
+
+.row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 33.33%;
+    padding: 5px;
+}
+
+a{
+    font-size: 1em;
+    color: rgb(124,228,245);
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+}
+
+.goal{
+    text-align: center;
+    margin-right: 5%;
+    font-size: larger;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+ol{
+    align-items: center;
+}
+.main{
+    font-weight: lighter;
+    font-weight: bold; 
+    text-shadow: 0cqmax;
+    float: inherit;
+    padding: 4rem;
+    border: 6px solid chartreuse;
+    margin: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: oblique;
+    font-size: 4em;
+    color: rgb(124,228,245);
+    text-decoration: none;
+    text-align: center;
+}
+
+.osc{
+    text-align: center;
+    margin-right: 5%;
+    font-size: larger;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.firma{
+    text-align: center;
+    margin-right: 5%;
+    font-size: larger;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.conf{
+    text-align: center;
+    margin-right: 5%;
+    font-size: larger;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+

@@ -1,0 +1,300 @@
+body{
+    background-color: #ED82BD;
+    background-attachment: scroll;
+    background-image: url("background.jpg");
+    background-blend-mode: lighten;
+}
+
+.Ali{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    font-style: oblique;
+    color: purple;
+    font-size: 3rem;
+    text-shadow: none;
+}
+
+.naslov{
+    font-family: monospace;
+    font-style: italic;
+    font-size: 3rem;
+    font-weight: bolder;
+    font-stretch: expanded;
+    background-color: purple;
+    letter-spacing: normal;
+    text-indent: 0%;
+}
+
+.moje{
+    color: blueviolet;
+    font-style: italic;
+    font-weight: bolder;
+    font-stretch: expanded;
+    font-size: larger;
+    background-color: bisque;
+}
+
+button{
+    background-color: #FFA3D0;
+    color: #B10C9F;
+}
+
+.row {
+    display: flex;
+  }
+  
+.column {
+    flex: 33.33%;
+    padding: 5px;
+}
+
+nav{
+    overflow: hidden;
+    background-color: purple;
+    text-align: center;
+    font-size: xx-large;
+}
+
+.navigation a:hover{
+    background-color: #ED82BD;
+}
+
+a{
+    font-weight: bold;
+    font-size: 1em;
+    color: #2196af;
+    text-decoration: none;
+    padding: 20px;
+}
+
+h4{
+    text-align: center;
+    font-size: xx-large;
+    color: purple;
+}
+
+.autor{
+    text-align: center;
+}
+
+.prvo{
+    background-color: #DD74E8;
+}
+
+.ali{
+  display: block;
+  margin-left:40%;
+  margin-right: auto;
+  width: 50%;
+}
+
+.centar{
+    text-align: inherit;
+}
+
+.desno{
+    width: 30%;
+    padding-left: 15px;
+    margin-left: 15px;
+    float: right;
+    font-style: italic;
+    background-color: #FFA3D0;
+}
+
+.lijevo{
+    width: 30%;
+    padding-left: 15px;
+    margin-left: 15px;
+    float: left;
+    font-style: italic;
+    background-color: #FFA3D0;
+    font-size: larger;
+}
+
+h6{
+    font-size: x-large;
+    text-align: center;
+}
+
+details{
+    text-align: center;
+    background-color: #ED82BD;
+}
+
+summary{
+    font-size: x-large;
+}
+
+h5{
+    font-size: large;
+}
+
+.knjige{
+    font-size: large;
+}
+
+p{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: larger;
+}
+
+hr{
+    width: 70%; 
+}
+
+.drugo{
+    background-color: #DD74E8;
+}
+
+.sadržaj{
+    text-align: center;
+}
+
+div.wrapper
+{
+  float: left;
+  width: 30em;
+}
+
+.chapter{
+    text-align: center;
+    font-size: xx-large;
+}
+
+br
+{
+  clear: left;
+}
+
+ol{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+li{
+    font-size: large;
+    text-align: center;
+}
+
+.slike{
+    text-align: center;
+}
+
+.trece{
+    background-color: #DD74E8;
+}
+
+.komentar{
+    text-align: center;
+}
+
+.cetiri{
+    background-color: #DD74E8;
+}
+
+.fav{
+    text-align: center;
+}
+
+.slika1{
+    font-size: x-large;
+    font-style: italic;
+    text-align: center;
+}
+
+.slika2{
+    font-size: x-large;
+    font-style: italic;
+    text-align: center;
+}
+
+.slika3{
+    font-size: x-large;
+    font-style: italic;
+    text-align: center;
+}
+
+.slika4{
+    font-size: x-large;
+    font-style: italic;
+    text-align: center;
+}
+
+.slika5{
+    font-size: x-large;
+    font-style: italic;
+    text-align: center;
+}
+
+.img1{
+    display: block;
+    margin-left: 25%;
+    margin-right: auto;
+    width: 50%;
+    text-align: center;
+}
+
+.img2{
+    display: block;
+    margin-left: 25%;
+    margin-right: auto;
+    width: 50%;
+    text-align: center;
+}
+
+.img3{
+    display: block;
+    margin-left: 25%;
+    margin-right: auto;
+    width: 50%;
+    text-align: center;
+}
+
+.img4{
+    display: block;
+    margin-left: 25%;
+    margin-right: auto;
+    width: 50%;
+    text-align: center;
+}
+
+.img5{
+    display: block;
+    margin-left: 25%;
+    margin-right: auto;
+    width: 50%;
+    text-align: center;
+}
+
+.quote{
+    display: block;
+    margin-left: 40%;
+    margin-right: auto;
+    width: 20%;
+    text-align: center;
+}
+
+.rec{
+    display: block;
+    margin-left: 40%;
+    margin-right: auto;
+    width: 20%;
+    text-align: center;
+}
+
+footer{
+    background-color: #B10C9F;
+    text-align: center;
+}
+
+.wom{
+    text-align: center;
+}
+
+.knjige{
+    list-style: circle;
+    animation: none;
+    transform:none;
+
+}
+

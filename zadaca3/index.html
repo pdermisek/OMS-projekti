@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Knjiga</title>
+    <link rel="stylesheet" href="style.css">
+    <style>  
+     header {
+        background-color: fuchsia;
+        color: #2196af;
+        text-align: center;
+        padding: 20px;
+        background-image: url(back1.jpg);
+        background-blend-mode: darken;
+    }
+    </style>
+</head>
+
+<body>
+    <header> 
+
+    <!--Slike su moje vlasništvo-->
+
+        <div class="row">
+            <div class="column">
+              <img src="knjiga4.jpg" alt="naslovna" style="width:40%">
+            </div>
+            <div class="column">
+                
+                    <h1 class="Ali">Ali Hazelwood:</h1>
+                    <h2 class="naslov">Love On The Brain </h2> 
+                    <h3 class="moje">Podržimo žene u STEM području !!! </h3>
+                
+                <!--Gif preuzet sa stranice Giphy-->
+
+                <img src="gif.gif" alt="gif" height="200">
+                <button type="button" onclick="alert('Ne sudite knjigu po koricama. Ovo nije klasična feminist knjiga!')"> Don't be scared, click me!</button>
+            </div>
+           
+            <div class="column">
+                <img src="knjiga4.jpg" alt="naslovna" style="width:40%">
+              </div>
+        </div>
+
+        <nav>
+            <div class="navigation">
+                <a href="#Author">O Autorici</a>
+                <a href="#sadrzaj">Sadržaj</a>
+                <a href="#Mojkomentar">Moj komentar i ocjena</a>
+                <a href="#Favoriti">Favoriti</a>
+            </div>
+        </nav>
+    </header>
+
+    <section class="prvo">
+
+        <h4 id="Author">O Autorici</h4>
+
+        <hr>
+
+        <p class="autor">
+            Ali Hazelwood je autorica rođena u Italiji. 
+          <br> Piše ljubavne romane s naglaskom na podržavanje žena u <abbr title="Science, technology, engineering, and mathematics">STEM</abbr>  području znanosti. 
+          <br>  Njezine knjige stekle su veliku popularnost putem društvene mreže TikTok.
+          <br> <dfn>Tiktok</dfn> je društvena mreža koja je trenutno najpopularnija među mladima.
+          <br>   Autorica je po zanimanju neuroznanstvenica, a trenutno radi kao profesorica.
+        </p>
+
+        <aside class="lijevo">
+
+            <article>
+
+            <h6>Autorica o sebi:</h6>
+
+            <blockquote>
+                <p> <q> I’m Ali, and I write contemporary romcom novels about women in STEM and academia.
+                <br> I love cats, Nutella, and side ponytails.
+                <br> I’m also currently learning to crochet, so as you can tell I’m a super busy gal
+                <br> with an intense and exciting life!</q>
+             </p>
+            </blockquote>
+
+            </article>
+
+        </aside>
+
+         <aside class="desno">
+             <h5>Najpopularnije knjige Ali Hazelwood:</h5>
+                <ul class="knjige">
+                    <li>The Love Hypothesis</li>
+                    <li>Love On The Brain</li>
+                    <li>Love, Theoretically</li>
+                    <li>Loathe To Love You</li>
+                </ul>
+        </aside>
+
+        <!--Slika preuzeta s interneta-->
+
+        <figure class="ali">
+            <img src="autor.jpg" alt="autor">
+            <figcaption class="centar">Autorica Ali Hazelwood</figcaption>
+        </figure>
+        
+    </section>
+
+    <section class="drugo">
+
+        <hgroup>
+
+        <h4 id="sadrzaj">Sadržaj</h4>
+        <p class="wom">Žene u STEM-u su zakon!</p>
+
+        </hgroup>
+
+        <hr>
+
+        <p class="sadržaj">
+            Glavna junakinja ovog romana <strong>Bee Königswasser</strong>  živi s jednostavnim životnim motom:
+        <br> <cite> Što bi Marie Curie napravila?</cite> Kada je jednoga dana dobila ponudu od NASA-e za vođenje jednog neuroinženjerskog projekta,
+        <br> Bee je bila oduševljena dok nije saznala kako će njezin partner biti njezin veliki neprijatelj iz srednje škole - <strong>Levi Ward.</strong> 
+        <br> Bee nije željela propustiti ovu životnu priliku, pa ju je odlučila prihvatiti bez obzira na to što će morati raditi s osobom
+        <br> koju nikako ne voli. Međutim, Levi se dosta promijenio, te se sprijateljio s Bee nakon što njezina oprema za projekt ne bude 
+        <br> dostavljena na vrijeme. Hoće li se dogoditi nešto više između ovo dvoje starih znanaca, i kako se sve završava, saznat ćete ako 
+        <br> pročitate ovu knjigu.  
+        </p>
+
+ 
+        <h6> <u>Glavni likovi</u></h6>
+
+        <p class="likovi">
+
+        <details>
+        <summary> <i>Bee Königswasser</i> </summary>
+        <p>Bee je žena koja obožava STEM kao i lik i djelo Marie Curie. Naizgled možda ne izgleda tako (zbog njezine <span style="color: purple;"> ljubičaste kose </span>, tetovaža i piercinga), ali Bee je jedna od najboljih neuroznanstvenica!</p>
+        </details>
+
+        <details>
+            <summary> <i>Levi Ward</i> </summary>
+            <p>Levi je jedan od najboljih inženjera u svojoj tvrtci. Naizgled vrlo hladan i nedostupan, ali u njemu se krije jedan <b>pravi emotivac!</b></p>
+        </details>
+
+        
+        
+        
+        <h6 class="chapter">Ovo su poglavlja u knjizi Love On the Brain:</h6>
+
+        <div class="wrapper">
+
+        <ol style="color: white;">
+
+        <li>The Habenula: Disappointment</li>
+        <li>Vagus Nerve: Blackout</li>
+        <li>Angular Gyrus: Pay Attention</li>
+        <li>Parahippocampal Gyrus: Suspicion</li>
+        <li>Amygdala: Anger</li>
+        <li>Heschl's Gyrus: Hear, hear</li>
+        <li>Orbitofrontal Cortex: Hope</li>
+        <li>Precentral Gyrus: Movement </li>
+        <li>Medial Frontal Cortex: Maybe I was wrong?</li>
+
+        </ol>
+
+        </div>
+        
+        <div class="wrapper">
+        <ol start="10">
+        <li>Dorsolateral Prefrontal Cortex: Untruths</li>
+        <li>Nucleus Accumbens: Gambling</li>
+        <li>Ventral Striatum: Yearning</li>
+        <li>Superior Colliculi: Will you look at that?</li>
+        <li>Periaqueductal Gray and the Hippocampus: <br>Painful memories</li>
+        <li>Fusiform Area: Familiar faces</li>
+        <li>Subthalamic Nucleus: Interruptions</li>
+        <li>Pulvinar: Reaching and Grasping </li>
+        <li>Raphe Nuclei: Happiness</li>
+        </ol>
+        </div>
+        <div class="wrapper">
+        <ol start="19" style="color: white;">
+        <li>Basolateral Amygdala: Arachnophobia</li>
+        <li>Ventral Tegmental Area: Romantic love</li>
+        <li>Right Inferior Frontal Gyrus: Superstition</li>
+        <li>Anterior Cingulate Cortex: Oh, Sh*t</li>
+        <li>Amygdala, again: Fear</li>
+        <li>Right Temporal Lobe: AHA!</li>
+        <li>Oriens-lacunosum Moleculare Interneurons: Courage</li>
+        <li>Epilogue</li>
+        </ol>
+        </div>
+
+        <br>
+      
+
+      <!--Slike su moje vlasništvo-->
+
+      <div class="slike">
+
+      <img src="knjiga2.jpg" alt="naslovna">
+      <img src="knjiga1.jpg" alt="korica">
+      <img src="knjiga3.jpg" alt="strana">
+
+      <pre> <small>Knjiga je objavljena u <mark> prosincu <var> 2022.</var> </mark>, što je razlog zašto imam englesku verziju, jer hrvatska još <s> nije dostupna.</s> <samp> Nije bila dostupna kada sam ju ja kupovala!</samp></small></pre>
+
+      </div>
+
+    </section>
+
+    <section class="trece">
+
+        <h4 id="Mojkomentar">Moj komentar i ocjena</h4>
+
+        <hr>
+
+        <p class="komentar">
+            Ovu knjigu nisam izabrala zato što je ljubavni roman ili zato što je "ženska" knjiga.
+            <br>Izabrala sam ovu knjigu zbog toga što autorica kroz cijelu knjigu podržava žene u <code>STEM </code>
+            <br>području znanosti, ohrabruje ih i potiče da rade ono što najviše vole.
+            <br>Kroz knjigu zapravo saznajemo s kakvim se sve preprekama žene u ovom području susreću,
+            <br>samo zbog toga što su "slabijeg" spola. Autorica na edukativan i zabavan način zapravo poziva
+            <br>sve ljude u ovom području (<em>naročito muškarce</em>) da pokažu više podrške prema ženama
+            <br>koje su prije svega njihove kolegice baš kao i svi ostali. Osobno smatram
+            <br>da se o ovoj temi treba puno više pričati jer nažalost još uvijek smo svjedoci kako su 
+            <br>žene u STEM području znanosti svakodnevno diskriminirane samo zbog njihovog spola,
+            <br>a u 21. stoljeću smatram kako je to nedopustivo. 
+            <br>Zbog svega navedenog ovoj knjizi dajem za ocjenu čistu <del>desetku</del> iliti čistu <ins>peticu</ins>.
+        </p>
+
+        <!--Gif preuzet sa stranice Giphy-->
+
+        <img src="rec.gif" alt="rec" class="rec">
+
+    </section>
+
+    <section class="cetiri">
+
+        <h4 id="Favoriti">Favoriti</h4>
+
+        <hr>
+
+        <p class="fav">
+            Ova knjiga mi je posebno zapela za oko zbog njezinih citata.
+            <br>Stoga, ovo je mojih top 5 citata iz ove knjige.
+            <br>S obzirom na to da je knjiga na engleskom, prijevod će biti dostupan ispod svake slike citata.
+        </p>
+
+        <!--Slike su moje vlasništvo-->
+
+        <figure>
+        <img src="citat1v.jpg" alt="citat1" class="img1">
+         <figcaption class="slika1"> Općepriznata je istina da zajednici žena 
+            koje pokušavaju gledati svoja posla mora biti 
+            potrebno mišljenje slučajnog muškarca. </figcaption>
+        </figure>
+
+        <!--Gif preuzet sa stranice Giphy-->
+
+        <img src="quote.gif" alt="quote" height="200" class="quote">
+
+        <figure>
+            <img src="citat2.jpg" alt="citat2" class="img2">
+            <figcaption class="slika2">...i zapamtite: ako vas akademska zajednica ikad natjera da se osjećate kao da niste dovoljno dobri ili pametni. . . problem niste vi, problem je akademska zajednica.</figcaption>
+        </figure>
+
+        <img src="quote.gif" alt="quote" height="200" class="quote">
+
+        <figure>
+            <img src="citat3.jpg" alt="citat3" class="img3">
+            <figcaption class="slika3"> 
+                Ako postoji nešto što muškarci mrze više od pametne žene, onda je to pametna žena koja sama odlučuje kada je u pitanju njezin seksualni život. </figcaption>
+        </figure>
+
+        <img src="quote.gif" alt="quote" height="200" class="quote">
+
+        <figure>
+            <img src="citat4.jpg" alt="citat4" class="img4">
+            <figcaption class="slika4">...vjerovati ljudima da će ostati u blizini je loša ideja. Na ovaj ili onaj način oni će nestati</figcaption>
+        </figure>
+
+        <img src="quote.gif" alt="quote" height="200" class="quote">
+
+        <figure>
+            <img src="citat5.jpg" alt="citat5" class="img5">
+            <figcaption class="slika5">Pravi negativac je ljubav: nestabilan izotop koji neprestano prolazi kroz spontani nuklearni raspad. i to će zauvijek proći nekažnjeno.</figcaption>
+        </figure>
+
+
+        <details>
+            <summary> Bonus content! </summary>
+            <p>
+                <ruby>
+                   <bdi> 我不懂中文 </bdi> <rp>(</rp><rt>Wǒ bù dǒng zhōngwén</rt><rp>)</rp>
+                    </ruby>
+
+                    <sub>Prevoditelj kaže da je ovo kineski</sub>
+
+                    <sup> <bdo dir="ltr">Vjerovat ćemo prevoditelju ovaj put!</bdo></sup>
+            </p>
+            </details>
+    </section>
+
+    <footer>
+        <address> 
+            Stranicu napravila <a href="mailto:patricia.dermisek@gmail.com">Patricia Dermišek</a> 
+            <br> 29.10.2023. <time>13:18</time>
+            <br> Studij: 
+            <br> 2. godina prijediplomskog jednopredmetnog studija Informatologija 
+            <br> Filozofski Fakultet Osijek 
+            <br> Lorenza Jägera 9 
+            <br> 31 000 Osijek 
+        </address>
+
+        Whatever you do, do not click <kbd>Alt</kbd> + <kbd>F4</kbd>
+    </footer>
+    <script></script>
+    <noscript>  Svakako je bolja od prošle zadaće </noscript>
+</body>
+
+</html>

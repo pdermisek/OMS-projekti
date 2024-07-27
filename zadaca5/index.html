@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prijava ispita</title>
+    <link rel="stylesheet" href="stil.css">
+</head>
+<body>
+    <form action="prijava.php">
+        
+        <fieldset>
+        <legend>
+          <h1>Prijava ispita</h1>
+          <h2>Studij Informatologije</h2>
+          <button type="button" onclick="alert('Nema iznenađenja samo pogledajte The IT Crowd')">Klikni za iznenađenje!</button>
+  
+        </legend>
+        </fieldset>
+        <!--Slika preuzeta s interneta https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOeEVmt4u-3aNddHfly2DDxtF294e5QV0J5gjDaw8-mp8t8aNe0tyqxaoKbocIEwKcnjk&usqp=CAU-->
+
+
+        <img src="itc.jpg" alt="itc">
+
+        <hr>
+
+        <div class="prvo">
+        <label for="ime" class="ime">Ime studenta</label>
+        <input type="text" name="imeStudenta" id="ime" placeholder="ime i prezime">
+        <!--Gif preuzet s aplikacije Giphy https://giphy.com/gifs/made-by-me-the-it-crowd-FspLvJQlQACXu -->
+        <img src="roy.gif" alt="roy" width="200" height="280">
+        </div>
+        <hr>
+
+        <div class="god">
+       <p> Godina studija u koju ste upisani </p>
+        <ul>
+            <li>
+                <input type="radio" name="godina" id="g1" value="1">
+                <label for="g1">1. godina prijediplomskog studija</label>
+            </li>
+            <li>
+                <input type="radio" name="godina" id="g2" value="2">
+                <label for="g2">2. godina prijediplomskog studija</label>
+            </li>
+            <li>
+                <input type="radio" name="godina" id="g3" value="3">
+                <label for="g3">3. godina prijediplomskog studija</label>
+            </li>
+            <li>
+                <input type="radio" name="godina" id="g4" value="4">
+                <label for="g4">1. godina diplomskog studija</label>
+            </li>
+            <li>
+                <input type="radio" name="godina" id="g5" value="5">
+                <label for="g5">2. godina diplomskog studija</label>
+            </li>
+        </ul>
+
+        <!--Gif preuzet s aplikacije Giphy https://giphy.com/gifs/the-it-crowd-chris-odowd-1C8bHHJturSx2 -->
+
+        <img src="it.gif" alt="it" class="itgif">
+
+        </div>
+
+
+        <hr>
+
+        <div class="rok">
+            <label for="rok">Odaberite kojem ispitnom roku želite pristupiti:</label>
+            <input list="rokovi" name="rok" id="rok">
+            <datalist id="rokovi">
+              <option value="Prvi ljetni ispitni rok">
+              <option value="Drugi ljetni ispitni rok">
+              <option value="Prvi jesenski ispitni rok">
+              <option value="Drugi jesenski ispitni rok">
+              <option value="Izvanredni ispitni rok u studenom">
+              <option value="Izvanredni ispitni rok u travnju">
+            </datalist>
+            <input type="submit">
+        </div>
+
+
+        <hr>
+
+
+        <div class="datum">
+            <label for="datum">Odaberite datum polaganja ispita:</label>
+            <select name="datumi" id="datum">
+              <optgroup label="Ljetni rokovi">
+                <option value="prvi">4. lipanj</option>
+                <option value="drugi">18. lipanj</option>
+              </optgroup>
+              <optgroup label="Jesenski rokovi">
+                <option value="prvi">3. rujan</option>
+                <option value="drugi">24. rujan</option>
+              </optgroup>
+              <optgroup label="Izvanredni rokovi">
+                <option value="prvi">28. studeni</option>
+                <option value="drugi">16. travanj</option>
+              </optgroup>
+            </select>
+            <keygen name="odabir">
+            <input type="submit" value="Odaberi">
+        </div>
+
+        <hr>
+
+
+        <div class="obv">
+
+        <p> Obvezni kolegiji iz kojih želite prijaviti ispit</p>
+
+        <ul>
+            <li>
+                <input type="checkbox" name="kolegij[]" id="k1" value="1">
+                <label for="k1">Baze podataka</label>
+            </li>
+            <li>
+                <input type="checkbox" name="kolegij[]" id="k2" value="2">
+                <label for="k2">Engleski jezik za humanističke i društvene znanosti 1-4</label>
+            </li>
+            <li>
+                <input type="checkbox" name="kolegij[]" id="k3" value="3">
+                <label for="k3">Industrije kreativnih sadržaja</label>
+            </li>
+            <li>
+                <input type="checkbox" name="kolegij[]" id="k4" value="4">
+                <label for="k4">Informacijska tehnologija za informacijske stručnjake</label>
+            </li>
+            <li>
+                <input type="checkbox" name="kolegij[]" id="k5" value="5">
+                <label for="k5">Informacijski izvori i službe</label>
+            </li>
+            <li>
+                <input type="checkbox" name="kolegij[]" id="k6" value="6">
+                <label for="k6">Informacijski sustavi u obrazovanju</label>
+            </li>
+            <li>
+                <input type="checkbox" name="kolegij[]" id="k7" value="7">
+                <label for="k7">Oblikovanje mrežnih stranica</label>
+            </li>
+            <li>
+                <input type="checkbox" name="kolegij[]" id="k8" value="8">
+                <label for="k8">Organizacija i poslovanje knjižnica</label>
+            </li>
+            <li>
+                <input type="checkbox" name="kolegij[]" id="k9" value="9">
+                <label for="k9">Uvod u organizaciju informacija</label>
+            </li>
+            <li>
+                <input type="checkbox" name="kolegij[]" id="k10" value="10">
+                <label for="k10">Uvod u znanstvenoistraživački rad</label>
+            </li>
+        </ul>
+
+
+        <!--Gif preuzet s aplikacije Giphy https://giphy.com/gifs/fire-computer-nerd-g79am6uuZJKSc -->
+        <img src="it2.gif" alt="it2" class="it2">
+
+        </div>
+
+        <hr>
+
+        <div class="izb">
+
+        <p>Izborni kolegiji iz kojih želite prijaviti ispit</p>
+
+        <ul>
+            <li>
+                <input type="checkbox" name="izborni[]" id="i1" value="1">
+                <label for="i1">Društvene mreže za informacijske stručnjake</label>
+            </li>
+            <li>
+                <input type="checkbox" name="izborni[]" id="i2" value="2">
+                <label for="i2">Implementacija programskih rješenja za oblikovanje sadržaja</label>
+            </li>
+            <li>
+                <input type="checkbox" name="izborni[]" id="i3" value="3">
+                <label for="i3">Književni nobelovci i njihovo djelo</label>
+            </li>
+            <li>
+                <input type="checkbox" name="izborni[]" id="i4" value="4">
+                <label for="i4">Knjižnični programi i usluge za djecu i mlade</label>
+            </li>
+            <li>
+                <input type="checkbox" name="izborni[]" id="i5" value="5">
+                <label for="i5">Kritička informacijska pismenost</label>
+            </li>
+            <li>
+                <input type="checkbox" name="izborni[]" id="i6" value="6">
+                <label for="i6">Organizacija informacija neknjižnične građe</label>
+            </li>
+            <li>
+                <input type="checkbox" name="izborni[]" id="i7" value="7">
+                <label for="i7">Osnove informacijske sigurnosti</label>
+            </li>
+            <li>
+                <input type="checkbox" name="izborni[]" id="i8" value="8">
+                <label for="i8">Popularna književnost</label>
+            </li>
+            <li>
+                <input type="checkbox" name="izborni[]" id="i9" value="9">
+                <label for="i9">Službene publikacije kao informacijski izvori</label>
+            </li>
+            <li>
+                <input type="checkbox" name="izborni[]" id="i10" value="10">
+                <label for="i10">Sociologija knjige i čitanja II</label>
+            </li>
+        </ul>
+
+        <!--Gif preuzet s aplikacije Giphy https://giphy.com/gifs/queue-connected-everything-is-11LbwKX02dszWU -->
+        <img src="it3.gif" alt="it3" class="it3">
+        
+        </div>
+
+
+
+        <hr>
+
+        <h3>Zbrojite svoje ECTS bodove</h3>
+        <div class="ects" oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+
+            <input type="range" id="a" value="6">
+            +<input type="number" id="b" value="40">
+            =<output name="x" for="a b"></output>
+        </div>
+
+        <hr>
+
+        <div class="studij">
+            <h3>Ovo je vaš tijek studija</h3>
+            <label for="studij">Studiranje:</label>
+            <progress id="studij" value="2" max="5"> 35% </progress>
+        </div>
+
+        <hr>
+
+        <div class="kraj">
+        <p>Napišite vaše mišljenje o studiju Informatologije!</p>
+        <textarea name="misao" id="misao" cols="30" rows="10"></textarea>
+           <!--Gif preuzet s aplikacije Giphy-->
+        <img src="it4.gif" alt="it4">
+        </div>
+
+
+        <hr>
+
+        <div class="zadnje">
+        <select name="vrsta" id="vrsta">
+            <option selected="selected" value="1">Jednopredmetni</option>
+            <option value="2">Dvopredmetni</option>
+        </select>
+        
+
+        <input type="submit" value="Prijavi">
+
+     
+        </div>
+
+        <hr>
+
+        <div class="bonus">
+            <label for="volja">Preostalo volje za životom:</label>
+            <meter id="volja" value="1" min="0" max="10">1 od 10</meter> <br>
+
+            <label for="praznik">Razina jedva čekanja praznika:</label>
+            <meter id="praznik" value="0.9">90%</meter>
+
+            <details>
+                <summary>How to tell HTML from HTML5</summary>
+                - Try it out on Internet Explorer
+                <br> - Did it work?
+                <br> - No?
+                <br> - It's HTML5
+              </details>
+        </div>
+
+    </form>
+
+<footer>
+    Stranicu izradila: Patricia Dermišek
+</footer>
+</body>
+</html>

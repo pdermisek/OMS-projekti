@@ -1,0 +1,183 @@
+section{
+    display: grid;
+    grid-template-areas: 
+    "a a a a a"
+    ". b b b ."
+    "c c c c c"
+    "d d d d d"
+    "- e e e ."
+    ;
+    row-gap: 2rem;
+    column-gap: 2rem;
+    grid-area: auto;
+    box-sizing: border-box;
+}
+
+.naslov{grid-area: a;
+text-align: center;
+background-color: black;
+}
+.uvod{grid-area: b;
+align-content: center;}
+.video{grid-area: c;}
+.tablica{grid-area: d;}
+.audio{grid-area: e;}
+
+div{
+    padding: 2rem;
+    background-color: rgb(149, 82, 81);
+    border: 10px outset rgb(195, 68, 122);
+    border-radius: 2rem;
+    align-items: center;
+    overflow-y: auto;
+    overflow-x: auto;
+    content: normal;
+}
+
+.uvod{
+    font-size: 2em;
+}
+
+body{
+    background-image: url(back.png);
+    background-blend-mode: darken;
+  
+}
+
+.head{
+    padding: 4rem;
+}
+
+.glavno{
+    font-size: 4rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: underline;
+    text-transform: uppercase;
+    background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #fff800 100%
+  );
+  color: #fff;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-color: #cc6600;
+}
+
+.hey{
+    font-size: x-large;
+    text-align: center;
+    text-decoration: underline;
+    appearance: auto;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.prvo{
+    font-size: x-large;
+    text-align: center;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.vid{
+    font-size: x-large;
+    text-align: center;
+    text-decoration: underline;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.drugo{
+    font-size: x-large;
+    text-align: center;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.music{
+    text-align: center;
+    font-weight: bold;
+    color: black;
+}
+
+p{
+    color: white;
+}
+
+table{
+    width: 100%;
+    caption-side: bottom;
+    border-collapse: collapse;
+    border-spacing: 5px;
+    caption-side: top;
+    table-layout: auto;
+}
+
+table, td, th{
+    border: 5px solid maroon;
+}
+
+caption{
+    font-weight: bold;
+    font-size: x-large;
+    text-decoration: underline;
+}
+
+tr{
+    text-align: center;
+    font-size: larger;
+}
+
+thead{
+    font-size: x-large;
+}
+
+.ime{
+    background-color: #cc6600;
+}
+
+.zanr{
+    background-color: crimson;
+}
+
+.pjesma{
+    background-color: deeppink;
+}
+
+.guitar{
+    text-align: center;
+}
+
+footer{
+    background-color: #ff1361;
+    text-align: center;
+}
+
+a{
+    color: black;
+}
+
+video{
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+
+}
+
+object{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+audio{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.opis{
+    text-align: center;
+}
